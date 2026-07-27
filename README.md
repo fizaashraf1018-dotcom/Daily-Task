@@ -1,3 +1,4 @@
+<img width="720" height="1600" alt="WhatsApp Image 2026-07-27 at 1 27 29 PM" src="https://github.com/user-attachments/assets/74507b71-29ba-4147-aefb-5214925d703c" />
 📋 Daily Task App
 An advanced, highly intuitive, and feature-rich Task Management Solution designed to streamline daily workflows and boost overall productivity.
 🌐 Live Application Link
