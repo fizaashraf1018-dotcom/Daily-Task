@@ -1,0 +1,6 @@
+{
+  "name": "Daily Task",
+  "description": "A modern study task management and planning dashboard crafted for students and teachers to organize assignments, schedules, focus timer sessions, and learning progress.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

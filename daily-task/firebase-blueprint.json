@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "tasks": {
+      "title": "Task",
+      "description": "Student or teacher daily tasks and to-dos",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "subjectId": { "type": "string" },
+        "dueDate": { "type": "string" },
+        "priority": { "type": "string" },
+        "status": { "type": "string" }
+      },
+      "required": ["title", "status"]
+    },
+    "assignments": {
+      "title": "Assignment",
+      "description": "Course assignments and quizzes",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "subjectId": { "type": "string" },
+        "type": { "type": "string" },
+        "totalPoints": { "type": "number" },
+        "dueDate": { "type": "string" }
+      },
+      "required": ["title", "type", "dueDate"]
+    },
+    "submissions": {
+      "title": "Assignment Submission",
+      "description": "Student submitted answers and AI grades",
+      "type": "object",
+      "properties": {
+        "assignmentId": { "type": "string" },
+        "studentName": { "type": "string" },
+        "status": { "type": "string" }
+      },
+      "required": ["assignmentId", "studentName"]
+    }
+  }
+}
